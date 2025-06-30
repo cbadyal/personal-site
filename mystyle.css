@@ -1,0 +1,138 @@
+
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('cutebow.jpeg');
+  background-size: auto;
+  background-attachment: fixed;
+  padding-bottom: 80px;
+
+}
+h1, h2 {
+  color: pink !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+  -webkit-text-stroke: 1px black;
+  text-transform: capitalize; 
+}
+p {
+  color: black;
+}
+.header {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  overflow: visible;
+  position: sticky;
+}
+.header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header > li {
+  float: left;
+}
+.header > li a {
+  display: flex;
+  color: pink;
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size: 2.0vw;
+  letter-spacing: 2px;
+  padding: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header > li a:hover {
+  background-color: rgb(254, 225, 230);
+  cursor: pointer;
+}
+.header > li a:active {
+  background-color: rgb(252, 134, 158);
+}
+.parentDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desc {
+  max-width: 1200px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 12px;
+  background-color: rgb(252, 245, 245);
+  color: black;
+}
+.desc a {
+  color: rgb(251, 167, 181);
+  text-decoration: none;
+}
+.desc a:hover {
+  color: hotpink;
+}
+.desc ul, section ul {
+  list-style-type: circle;
+}
+
+input[type="submit"] {
+  background-color: pink;
+  border: 1px solid black;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1.0em;
+  font-family: 'Verdana';
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(254, 225, 230);
+}
+
+
+.footer {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  background-color: white;
+  overflow: visible;
+  position: fixed;
+  bottom: 0;
+  width: 99%;
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */ 
+}
+
+
+
+.footer > li a {
+  display: flex;
+  align-items: center; /* Vertically centers icon and text */
+  color: pink;
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size: 2.0vw;
+  letter-spacing: 2px;
+  padding: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer > li a:hover {
+  background-color: rgb(254, 225, 230);
+  cursor: pointer;
+}
+
+.footer > li a:active {
+  background-color: rgb(252, 134, 158);
+}
+
+.footer i {
+  font-size: 1.2em; /* Makes icons slightly larger */
+}
